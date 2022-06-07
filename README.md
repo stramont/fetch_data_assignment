@@ -21,3 +21,5 @@ the sql statement: ```SELECT * FROM user_logins;```.  You should then be able to
 
 But if I were to include code to retrieve all 100 records, I would just loop lines 20-28, storing each json into a list.  Then I would loop line 70 (the sql insert) for each record.  Maybe this isn't necessary at all, but I'm just thinking off the top of my head.
 
+4.  I commented my code pretty thoroughly (I think), so some unanswered questions may be found in there.
+
